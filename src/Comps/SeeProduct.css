@@ -1,0 +1,234 @@
+/* .SeeProduct .container{
+    display: flex   ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SeeProduct  img{
+width: 541px;
+height: 561px;
+}
+@media(max-width:377px){
+    .SeeProduct  img{
+        width: 330px;
+        height: 330px;
+    }
+    .SeeProduct .container{
+flex-wrap: wrap;
+gap: 30px;
+margin: 0  20px;
+padding: 0;
+    }
+}
+.SeeProduct .container .product-text{
+width: 500px;
+font-family: 'Manrope',sans-serif;
+}
+.product-text h4 {
+    font-size: 40px;
+    font-family: 'Manrope',sans-serif;
+    font-weight: 600;
+}
+@media(max-width:377px){
+    .product-text h4 {
+font-size: 30px;
+font-weight: 500;
+}
+}
+.product-text .par1{
+    color: var(--orange);
+    font-weight: 400;
+    font-family: 'Manrope',sans-serif;
+}
+.product-text .desc{
+    width: 500px;
+    font-weight: lighter;
+}
+@media(max-width:377px){
+    .product-text .desc{
+width: 330px;
+}
+}
+.product-text .price{
+    font-size: 18px;
+}
+
+.product-text .price{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.btn-counter{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.counter{
+background-color: #f1f1f1;
+}
+.btn-counter .counter button{
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.btn-counter .counter button:hover{
+    background-color: #bfbfbf;
+    transition: 0.7s;
+    color: var(--orange);
+}
+.btn-counter .counter .price_number{
+background-color: #f1f1f1;
+font-size: 15px;
+padding: 0 5px;
+}
+.btn-counter .add{
+    border: none;
+    background-color: var(--orange);
+    color: white;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-counter .add:hover{
+background-color: #c97148af;
+transition: 1s;
+}
+
+ */
+ .SeeProduct .container{
+    display: flex   ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SeeProduct  img{
+width: 500;
+height: 511px;
+border-radius: 5px;
+}
+@media(max-width:377px){
+    .SeeProduct  img{
+        width: 330px;
+        height: 330px;
+    }
+    .SeeProduct .container{
+flex-wrap: wrap;
+gap: 30px;
+margin: 0  20px;
+padding: 0;
+    }
+}
+.SeeProduct .container .product-text{
+width: 500px;
+font-family: 'Manrope',sans-serif;
+}
+.product-text h4 {
+    font-size: 40px;
+    font-family: 'Manrope',sans-serif;
+    font-weight: 600;
+}
+@media(max-width:377px){
+    .product-text h4 {
+font-size: 30px;
+font-weight: 500;
+}
+}
+.product-text .par1{
+    color: var(--orange);
+    font-weight: 400;
+    font-family: 'Manrope',sans-serif;
+}
+.product-text .desc{
+     width: 100%;
+    font-weight: lighter;
+}
+@media(max-width:377px){
+    .product-text .desc{
+width: 330px;
+}
+}
+.product-text .price{
+    font-size: 18px;
+}
+
+.product-text .price{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.btn-counter{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.counter{
+background-color: #f1f1f1;
+}
+.btn-counter .counter button{
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.btn-counter .counter button:hover{
+    background-color: #bfbfbf;
+    transition: 0.7s;
+    color: var(--orange);
+}
+.btn-counter .counter .price_number{
+background-color: #f1f1f1;
+font-size: 15px;
+padding: 0 5px;
+}
+.btn-counter .add{
+    border: none;
+    background-color: var(--orange);
+    color: white;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-counter .add:hover{
+background-color: #c97148af;
+transition: 1s;
+}
+@media (max-width:549px) and (min-width:378px){
+    .SeeProduct .container{
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .SeeProduct  img{
+        /* margin: 0px auto 50px; */
+        margin-bottom: 30px;
+        width: 400px;
+        height: 400px;
+    }
+    .SeeProduct .container .product-text{
+        margin: 0 auto;
+    }
+    .product-text .desc{
+        width: 380px;
+    }
+}
+
+@media (max-width:991px) and (min-width:550px){
+    .SeeProduct .container{
+        flex-wrap: wrap;
+    }
+    .SeeProduct  img{
+        /* margin: 0px auto 50px; */
+        width: 500px;
+        height: 500px;
+    }
+    .SeeProduct .container .product-text{
+        /* margin: 0 auto; */
+        margin-top: 30px;
+        }
+    }
+    @media (min-width:991px) {
+        .SeeProduct
+     .container{
+    gap: 50px;
+     }
+    }
+
+    

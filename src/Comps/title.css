@@ -1,0 +1,26 @@
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191919;
+    color: white;
+    height: 300px;
+    padding-top: 80px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Manrope',sans-serif;
+    text-transform: uppercase;
+}
+@media(max-width:377px){
+.title{
+ height: 200px;
+}
+.name{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+
+}
+}

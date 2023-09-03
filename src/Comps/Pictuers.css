@@ -1,0 +1,28 @@
+.Pictuers{
+margin-top: 100px;
+}
+.Pictuers .container{
+display: flex;
+gap: 20px;
+}
+.Pictuers .leftPictuers{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}  
+.Pictuers .RightPictuers{
+width: 710px;
+}
+.Pictuers  img{
+border-radius: 10px;
+width: 100%;
+height: 100%;
+}
+@media (max-width:376px) {
+    .Pictuers .container{
+        flex-wrap: wrap;
+    }
+.Pictuers .leftPictuers{
+ gap: 20px;
+}
+}

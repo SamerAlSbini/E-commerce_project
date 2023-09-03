@@ -1,0 +1,10 @@
+.ProductsSection .container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+@media(max-width:470px){
+.ProductsSection .container{
+flex-wrap: wrap;
+}
+}

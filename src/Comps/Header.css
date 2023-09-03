@@ -1,0 +1,73 @@
+.over{
+    overflow: hidden;
+}
+.header{
+    position: absolute;
+    /* left: 0; */
+    width: 100%;
+    z-index: 2;
+ background-color: #191919;   
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #333333;
+    color: white;
+}
+.header-logo{
+    font-size: 33px;
+    font-weight: 900;
+    font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; 
+    letter-spacing: 1px;
+}
+.list{
+    display: flex;
+}
+
+
+.hidden{
+    display: none;
+}
+.ProductsSection {
+/* background-color: red; */
+
+width: 100%;
+
+}
+.fas.fa-bars{
+    cursor: pointer;
+}
+.list li a{
+    padding: 20px;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif; 
+    letter-spacing: 2px;
+    transition: 1s;
+}
+.list li:hover{
+    color: var(--orange);
+
+}
+.list-one{
+    color: var(--orange);
+}
+.header-icon{
+position:relative;
+}
+.cart_number{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: var(--orange);
+    border-radius: 50%;
+    color: white;
+    left: 12px;
+    top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,185 @@
+/* .ProductBox
+ .container{
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width:377px) {
+    .ProductBox
+ .container{
+    flex-wrap: wrap;
+    margin: 0 20px;
+ }
+}
+.image img{
+    max-width: 100%;
+}
+.image{
+    height: 541px;
+    width: 561px;    
+}
+.text1{
+    width: 500px;
+}
+.text1 .par1{
+    font-family: 'Manrope',sans-serif;
+    font-size: 14px;
+    color: var(--orange);
+    font-weight: 200;
+    margin-bottom: 16px;
+}
+.text1 .h1 {
+    font-size: 28px;
+    font-family: 'Manrope',sans-serif;
+    width: 250px;
+    font-weight: 600;
+    color: black;
+}
+.text1 .desc{
+    font-weight: 300;
+    width: 450px;
+}
+@media(max-width:377px){
+    .image img{
+width: 320px;
+height: 350px;
+    }
+ .text1{
+    text-align: center;
+ }   
+.text1 .h1 {
+margin: 0 auto;
+}
+.text1 .desc{
+ width: 330px;   
+
+}
+.image{
+   height: 400px;
+   text-align: center; 
+}
+}
+.text1 .btn {
+    font-family: 'Manrope',sans-serif;
+} */
+.ProductBox
+ .container{
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/* for keep gap in large screens */
+@media (min-width:991px) {
+    .ProductBox
+ .container{
+gap: 50px;
+ }
+}
+
+/* end of screens */
+@media (max-width:377px) {
+    .ProductBox
+ .container{
+    flex-wrap: wrap;
+    margin: 0 20px;
+ }
+}
+.image img{
+    max-width: 100%;
+}
+.image{
+    height: 541px;
+    width: 561px;    
+}
+.text1{
+    width: 500px;
+}
+.text1 .par1{
+    font-family: 'Manrope',sans-serif;
+    font-size: 14px;
+    color: var(--orange);
+    font-weight: 200;
+    margin-bottom: 16px;
+}
+.text1 .h1 {
+    font-size: 28px;
+    font-family: 'Manrope',sans-serif;
+    width: 250px;
+    font-weight: 600;
+    color: black;
+}
+.text1 .desc{
+    font-weight: 300;
+    width: 450px;
+}
+@media(max-width:377px){
+    .image img{
+width: 320px;
+height: 350px;
+    }
+ .text1{
+    text-align: center;
+ }   
+.text1 .h1 {
+margin: 0 auto;
+}
+.text1 .desc{
+ width: 330px;   
+}
+.image{
+   height: 400px;
+   text-align: center; 
+}
+}
+.text1 .btn {
+    font-family: 'Manrope',sans-serif;
+}
+@media (max-width:499px) and (min-width:378px){
+    .ProductBox .container{
+        flex-wrap: wrap;
+     }
+     .image{
+        margin: 0 auto;
+        text-align: center;
+     }
+     .image img{
+        width: 400px;
+        height: 400px;
+     }
+     .text1{
+        margin: 0 auto;
+        text-align: center;
+     }
+     .text1 .h1,
+     .text1 p{
+        
+        margin: 0 auto;
+     }
+     .text1 .desc{
+        width: 330px;   
+       }
+}
+@media (max-width:991px) and (min-width:500px){
+ .ProductBox .container{
+    flex-wrap: wrap;
+ }
+ .image{
+    margin: 0 auto;
+    text-align: center;
+ }
+ .image img{
+    height: 500px;
+ }
+ .text1{
+    margin: 0 auto;
+    text-align: center;
+ }
+ .text1 .h1,
+ .text1 p{
+    
+    margin: 0 auto;
+ }
+}

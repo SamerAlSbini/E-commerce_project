@@ -1,0 +1,41 @@
+.Message{
+    width: fit-content;
+    background-color: #38a169;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+margin-bottom: 10px;
+font-family: 'Manrope',sans-serif;
+}
+@media(max-width:377px){
+    .Message{
+        height: 50px;
+        font-size: 15px;
+        margin-right: 10px;
+    width: 100%;
+        /* padding: 5px; */
+    }
+}
+@media(max-width:480px) and (min-width:378px){
+    .Message{
+    height: 50px;
+    font-size: 15px;
+    width: 100%;
+    }
+}
+.paragraph{
+    margin-left: 10px;
+margin-right: 10px;
+}
+.hidden{
+    display: none;
+}
+.CloseIcon:hover{
+cursor: pointer;
+}

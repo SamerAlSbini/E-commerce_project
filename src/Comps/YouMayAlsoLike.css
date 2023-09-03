@@ -1,0 +1,29 @@
+.YouMayAlsoLike{
+margin-top: 150px;
+font-family: 'Manrope',sans-serif;
+}
+.YouMayAlsoLike h1{
+font-size: 30px;
+color: black;
+margin-bottom: 60px;
+}
+.YouMayAlsoLike .container{
+    text-align: center;
+}
+.suggestions{
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:1200px){
+    .suggestions{
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+}
+/* @media(max-width:768px){
+.suggestions{
+justify-content: center;
+}
+} */
+

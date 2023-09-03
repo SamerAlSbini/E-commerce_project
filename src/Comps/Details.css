@@ -1,0 +1,70 @@
+.details-counter{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+   
+}
+.details-counter button{
+         padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }    
+     .details-counter button:hover{
+        transition: 0.7s;
+        color: var(--orange);
+    }
+     .details-counter .price_number{
+    font-size: 15px;
+    
+    }
+     .add{
+        border: none;
+        background-color: var(--orange);
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+     .add:hover{
+    background-color: #c97148af;
+    transition: 1s;
+    }
+
+    .PopFull .head{
+        display: flex;
+        justify-content: space-between;
+margin-bottom: 30px;
+    }
+    .PopFull .head .removeAll a {
+color: black
+}
+.PopFull .body_of_popFull .details_title
+{
+   display: flex; 
+  
+}
+.PopFull .body_of_popFull .details_title .details-text{
+transform: translate(10px ,10px);
+
+}
+
+.PopFull .body_of_popFull .details{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.PopFull .body_of_popFull .details img{
+width: 64px;
+border-radius: 10px;
+}
+.PopFull .body_of_popFull .details_title p{
+font-size: 15px;
+}
+.PopFull .body_of_popFull .details{
+margin-bottom: 40px;
+
+}
+.hidden{
+    display: none;
+}

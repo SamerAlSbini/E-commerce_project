@@ -1,0 +1,199 @@
+.Landing{
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:right;
+ height: 100vh;
+ top: -60px;
+ position: relative;
+                    -webkit-animation: flash 1s ease-in-out alternate forwards;
+                            animation: flash 1s ease-in-out alternate forwards;
+                            background-image: url("/public/images/image-hero.jpg");
+
+}
+.Landing .container{
+    position: relative;
+}
+/* @media screen and (max-width: 730px) and (min-width: 481px){
+    .Landing{
+    background-image: url("/public/images/image-herooo.jpg");
+}
+}
+@media screen and (max-width: 991px) and (min-width: 730){
+    .Landing{
+        background-image: url("/public/images/image-hero-tablet.jpg");
+}
+}   */
+/* @media(max-width:991px){
+    .Landing{
+        background-image: url("/public/images/image-hero-tablet.jpg");
+        height: 600px;
+    }
+    .parents .overlay{
+        height: 600px;
+    }
+    p.par1 {
+        font-size: 14px;
+    }
+    p.desc {
+        margin: auto;
+        width: 351px;
+    }  
+    h1.h1 {
+        font-size: 56px;
+        color: white;
+    }
+    .Landing .text {
+        text-align: center;
+        width: 100%;
+    }
+} */
+/* .container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+/* Small */
+/* @media (max-width: 768px) {
+    .Landing {
+        width: 750px;
+        margin: auto;
+    }
+} */
+      /* Medium */
+      /* @media (max-width: 992px) {
+        .Landing {
+            width: 970px;
+            margin: auto;
+        }
+    } */
+    /* Large */
+    /* @media (max-width: 1200px) {
+        .Landing {
+        width: 1170px;
+        margin: auto;
+    }
+    } */
+/* @-webkit-keyframes flash {
+    0%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 0.7;
+    }
+    40%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+} */
+
+/* @keyframes flash {
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0.3;
+    }
+    40%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+    } 
+} */
+.overlay{
+    position: absolute;
+    background-color:#191919;
+    width: 100%;
+    height: calc(100vh - 60px);/*///////////////////////////  */
+    left: 0;
+    top: 0;    
+    z-index: -2;
+}
+.landing2{   
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+    opacity: 0;
+}
+.text{
+    position: relative;
+    color: white;
+    top: 270px;
+    width: 380px; 
+}
+.par1{
+    color: #938e8b;
+    font-size: 14px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h1{
+font-size: 55px;
+color: white;
+letter-spacing: 3px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.desc{
+    color: #757b79;
+    padding-top: 20px;
+    line-height: 1.6;
+    width: 350px;
+    font-size: 15px;
+    font-family:'manrope',sans-serif;
+}
+.cover-btn{
+    margin-top: 50px;
+}
+.cover-btn a{
+    font-family:'manrope',sans-serif;
+}
+.btn{
+    background-color: #d87c49;
+    padding: 10px 40px;
+    transition:0.5s;
+}
+.btn:hover{
+    background-color: #faaf85;
+}
+@media (max-width:991px) {
+    .Landing{
+        background-position:center;
+        background-image:url("/public/images/image-background-tablet-landing.jpg") ;
+    }
+    .Landing .text{
+margin: 0 auto ;
+
+}
+    .Landing .container{
+        text-align: center;
+    }
+}
+@media(max-width:480px){
+   .Landing{
+       background-image: url("/public/images/image-hero1.jpg");
+       height: 600px;
+    background-position: center;
+   }
+   .parents .overlay{
+       height: 600px;
+   }
+   p.par1 {
+       font-size: 14px;
+   }
+   h1.h1 {
+       font-size: 36px;
+       color: white;
+   }
+   .Landing .text {
+       text-align: center;
+       width: 100%;
+   }
+}
