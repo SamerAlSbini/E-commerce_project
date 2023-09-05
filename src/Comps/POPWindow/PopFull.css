@@ -105,7 +105,7 @@
 }
 @media(max-width:425px) and (min-width:378px){
     .PopFull{
-        right: 30px;
-    }
-    
+        left: 50%;
+        transform: translateX(-50%);
+    } 
 }
