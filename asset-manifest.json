@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/E-commerce_project/static/css/main.4b6d717d.css",
+    "main.css": "/E-commerce_project/static/css/main.0bf20def.css",
     "main.js": "/E-commerce_project/static/js/main.d48e9e84.js",
     "static/media/image-background-tablet-landing.jpg": "/E-commerce_project/static/media/image-background-tablet-landing.13f7f18f9ae7b105ca12.jpg",
     "static/media/image-hero1.jpg": "/E-commerce_project/static/media/image-hero1.d200a3583e72c7981f46.jpg",
     "static/media/image-hero.jpg": "/E-commerce_project/static/media/image-hero.55c18e980adf7658ae26.jpg",
     "index.html": "/E-commerce_project/index.html",
-    "main.4b6d717d.css.map": "/E-commerce_project/static/css/main.4b6d717d.css.map",
+    "main.0bf20def.css.map": "/E-commerce_project/static/css/main.0bf20def.css.map",
     "main.d48e9e84.js.map": "/E-commerce_project/static/js/main.d48e9e84.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b6d717d.css",
+    "static/css/main.0bf20def.css",
     "static/js/main.d48e9e84.js"
   ]
 }
